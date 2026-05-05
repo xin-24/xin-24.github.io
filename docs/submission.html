@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KOC Growth Agent 初赛说明文档</title>
+    <style>
+      body {
+        margin: 0;
+        color: #172033;
+        background: #f4f7fb;
+        font-family: "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+        line-height: 1.72;
+      }
+      main {
+        max-width: 920px;
+        margin: 0 auto;
+        padding: 48px;
+        background: #fff;
+      }
+      h1 {
+        margin: 0 0 8px;
+        color: #111827;
+        font-size: 38px;
+        letter-spacing: 0;
+      }
+      h2 {
+        margin-top: 32px;
+        padding-bottom: 8px;
+        border-bottom: 2px solid #dbeafe;
+        color: #1f2937;
+      }
+      .meta,
+      .lead {
+        color: #4b5563;
+      }
+      .flow {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px;
+        margin: 18px 0;
+      }
+      .flow span,
+      .card {
+        border: 1px solid #dbe3f0;
+        border-radius: 8px;
+        background: #f8fbff;
+      }
+      .flow span {
+        padding: 12px 8px;
+        text-align: center;
+        font-weight: 700;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+      }
+      .card {
+        padding: 16px;
+      }
+      .card strong {
+        display: block;
+        margin-bottom: 6px;
+        color: #111827;
+      }
+      @media print {
+        body {
+          background: #fff;
+        }
+        main {
+          padding: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>KOC Growth Agent</h1>
+      <p class="meta">赛道：AI + 社媒流量密码，帮普通 KOC 轻松涨粉</p>
+      <p class="lead">一个面向普通 KOC、新手博主和小商家内容运营者的 AI 增长工作台，把账号定位、内容选题、脚本生产、发布排期和数据复盘串成可执行闭环。</p>
+
+      <h2>目标用户与痛点</h2>
+      <div class="grid">
+        <div class="card"><strong>普通 KOC</strong>知道自己想做内容，但缺少定位方法和持续选题能力。</div>
+        <div class="card"><strong>新手博主</strong>会写单条内容，但不知道如何形成账号记忆点。</div>
+        <div class="card"><strong>小商家运营者</strong>需要低成本做内容获客，但不会把产品自然植入场景。</div>
+        <div class="card"><strong>核心痛点</strong>定位模糊、选题低效、内容生产不稳定、不会复盘、商业化路径不清楚。</div>
+      </div>
+
+      <h2>产品方案</h2>
+      <p>KOC Growth Agent 不是单点文案生成器，而是一个增长 Agent：先判断目标用户和内容定位，再生成选题、脚本和排期，最后基于数据表现给出下一轮优化动作。</p>
+      <div class="flow">
+        <span>画像诊断</span>
+        <span>选题雷达</span>
+        <span>内容工坊</span>
+        <span>发布日历</span>
+        <span>增长复盘</span>
+      </div>
+
+      <h2>核心功能</h2>
+      <div class="grid">
+        <div class="card"><strong>画像诊断</strong>输入领域、平台、账号阶段和目标用户，生成定位、人设、机会点和风险提醒。</div>
+        <div class="card"><strong>选题雷达</strong>按用户匹配、爆款潜力、制作难度和商业价值评估选题。</div>
+        <div class="card"><strong>内容工坊</strong>生成标题、开头钩子、短视频脚本、分镜、封面文案、标签和评论互动话术。</div>
+        <div class="card"><strong>发布日历</strong>规划 7 天内容节奏，明确平台、发布时间、主题和素材状态。</div>
+        <div class="card"><strong>增长复盘</strong>用播放、点赞、评论、收藏、转粉数据输出诊断和下一轮动作。</div>
+        <div class="card"><strong>设置</strong>默认 Mock AI 可稳定体验，可选 API Key 模式，本地保存、不依赖后端。</div>
+      </div>
+
+      <h2>AI 原生能力</h2>
+      <p>AI 贯穿任务拆解、场景匹配、内容策略、执行计划和结果优化。产品让低经验 KOC 不需要理解复杂运营框架，也能按 Agent 提供的步骤完成一次内容增长循环。</p>
+
+      <h2>创新与差异化</h2>
+      <p>相比普通 AI 写作工具，本作品强调「增长工作流」而非「单条文案」。选题会被结构化评分，脚本会绑定平台和用户场景，复盘会反向生成下一轮内容池。</p>
+
+      <h2>落地可行性与商业化</h2>
+      <p>初赛版本为纯前端静态 Demo，可部署到 GitHub Pages。后续可接入真实模型 API、平台数据授权、内容发布 API、账号诊断报告和品牌合作撮合模块。商业模式包括订阅制、诊断报告、模板市场和品牌商单匹配。</p>
+    </main>
+  </body>
+</html>
